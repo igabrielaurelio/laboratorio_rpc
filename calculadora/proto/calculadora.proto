@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package calculadora;
+
+// O serviço da Calculadora.
+service Calculadora {
+  // Define as quatro operações
+  rpc Somar(OperacaoRequest) returns (OperacaoResponse) {}
+  rpc Subtrair(OperacaoRequest) returns (OperacaoResponse) {}
+  rpc Multiplicar(OperacaoRequest) returns (OperacaoResponse) {}
+  rpc Dividir(OperacaoRequest) returns (OperacaoResponse) {}
+}
+
+// A mensagem de requisição contendo os dois operandos.
+message OperacaoRequest {
+  double num1 = 1;
+  double num2 = 2;
+}
+
+// A mensagem de resposta contendo o resultado.
+message OperacaoResponse {
+  double resultado = 1;
+}
