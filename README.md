@@ -1,6 +1,6 @@
 # Guia de Execução - Laboratório RPC
 Este guia mostra os passos necessários para compilar e executar as aplicações de Calculadora e Minerador de Criptomoedas.
-Recomendamos que possua a versão mais atualizada do Python em sua máquina e ativar p "PATH".
+Recomendamos que possua a versão mais atualizada do Python em sua máquina e ativar o "PATH".
 # Pré-requisitos
 Antes de começar, você precisa ter o Python instalado. Depois, instale as bibliotecas gRPC com o comando abaixo no seu terminal:
 
