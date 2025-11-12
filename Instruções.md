@@ -33,7 +33,7 @@ Navegue para a mesma pasta calculadora/.
 
 Execute o comando, especificando o endereço do servidor:
 
-```python client.py localhost:50052```
+```python client.py localhost:50051```
 
 O menu da calculadora aparecerá e você poderá começar a interagir.
 
