@@ -25,6 +25,18 @@ No terminal atual, execute o comando:
 
 Deixe este terminal aberto. Ele precisa ficar rodando.
 
+4. Inicie o cliente
+
+Abra um novo terminal.
+
+Navegue para a mesma pasta calculadora/.
+
+Execute o comando, especificando o endereço do servidor:
+
+```python client.py localhost:50052```
+
+O menu da calculadora aparecerá e você poderá começar a interagir.
+
 # Atividade 2: Minerador de Criptomoedas
 
 Siga os passos para executar o protótipo de mineração.
